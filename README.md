@@ -14,4 +14,5 @@ A complete CRUD app based Nextjs 14, Tailwind
     3. $ npx prisma migrate dev
     4. create db for prisma client
 
-- [ ] server action
+- [x] create new snippet with server action
+ 

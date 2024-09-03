@@ -1,7 +1,25 @@
+import { db } from "@/db"
+import { redirect } from "next/navigation"
 
 export default function page() {
+  async function createSnippet(formData: FormData) {
+    'use server'
+    
+    const title = formData.get('title') as string
+    const code = formData.get('code') as string
+    
+    const snippet = await db.snippet.create({
+      data: {
+        title, 
+        code
+      }
+    })
+
+    redirect('/')   
+  }
+
   return (
-    <form>
+    <form action={createSnippet}>
       <div className='flex flex-col gap-4'>
         <h3 className="font-bold">Create new snippet:</h3>
         <div className='flex gap-4'>
