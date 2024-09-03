@@ -15,4 +15,5 @@ A complete CRUD app based Nextjs 14, Tailwind
     4. create db for prisma client
 
 - [x] create new snippet with server action
+- [x] fetch all snippets and show them on root page
  
