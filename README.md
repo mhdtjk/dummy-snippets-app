@@ -16,4 +16,5 @@ A complete CRUD app based Nextjs 14, Tailwind
 
 - [x] create new snippet with server action
 - [x] fetch all snippets and show them on root page
+- [x] dynamic route for each snippet
  
