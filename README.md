@@ -1,16 +1,16 @@
 # dummy-snippets-app
-A complete CRUD app based Nextjs 14, Tailwind
+A complete CRUD app based Nextjs 14, Typescript, Tailwind
 
 ## steps
 - [x] init prisma with sqlite db
     1. $ npx prisma init --datasource-provider sqlite
-    2. Model your data in the Prisma schema like
-        model User {
+    2. Model your data in the Prisma schema
+        model Snippet {
             id    Int     @id @default(autoincrement())
-            email String  @unique
-            name  String?
-            posts Post[]
+            title String 
+            code  String
         }
+
     3. $ npx prisma migrate dev
     4. create db for prisma client
 
