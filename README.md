@@ -18,3 +18,4 @@ A complete CRUD app based Nextjs 14, Tailwind
 - [x] fetch all snippets and show them on root page
 - [x] dynamic route for each snippet
 - [x] add Link and some style to root page
+- [x] fix snippet by id page
