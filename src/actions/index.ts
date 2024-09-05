@@ -19,3 +19,20 @@ export async function deleteSnippet(id: number) {
 
   redirect("/");
 }
+
+export async function createSnippet(formState: {message: string}, formData: FormData) {
+  return {
+    message: 'must be valid'
+  }
+  // const title = formData.get('title') as string
+  // const code = formData.get('code') as string
+  
+  // const snippet = await db.snippet.create({
+  //   data: {
+  //     title, 
+  //     code
+  //   }
+  // })
+
+  // redirect('/')   
+}
