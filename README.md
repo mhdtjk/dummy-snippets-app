@@ -19,3 +19,4 @@ A complete CRUD app based Nextjs 14, Typescript, Tailwind
 - [x] dynamic route for each snippet
 - [x] add Link and some style to root page
 - [x] fix snippet by id page
+- [x] server action error handling
