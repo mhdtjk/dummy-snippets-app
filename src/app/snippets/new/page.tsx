@@ -18,9 +18,9 @@ export default function Page() {
           <label htmlFor="code" className='w-1/12'>Code:</label>
           <textarea name='code' id='code' className='border rounded p-2 w-full' />
         </div>
-        <div>{formState.message}</div>
+        {formState.message && <div className="p-2 border rounded bg-red-100">{formState.message}</div> }
         <button type="submit" className='p-2 rounded bg-blue-200'>Create</button>
       </div>
     </form>
-  )
+  ) 
 }
