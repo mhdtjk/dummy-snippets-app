@@ -20,4 +20,4 @@ A complete CRUD app based Nextjs 14, Typescript, Tailwind
 - [x] add Link and some style to root page
 - [x] fix snippet by id page
 - [x] server action error handling
-- [x] force dynamic home page to resolve caching on production mode (run start)
+- [x] use revalidatePath function in actions to resolve caching on production mode (run start)
