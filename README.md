@@ -1,4 +1,4 @@
-# dummy-snippets-app
+# nextjs-snippets-app
 A complete CRUD app based Nextjs 14, Typescript, Tailwind
 
 ## steps
